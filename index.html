@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optimism Trends Survey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Optimism Trends Survey</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#survey">Survey</a>
+            <a href="#results">Results</a>
+            <a href="#resources">Resources</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <button onclick="document.getElementById('survey').scrollIntoView()">Take the Survey</button>
+    </header>
+
+    <section id="about">
+        <h2>About the Survey</h2>
+        <p>This survey aims to identify trends in optimism...</p>
+        <p><strong>Methodology:</strong> We use a combination of quantitative and qualitative questions...</p>
+        <p><strong>Privacy:</strong> Your data is confidential...</p>
+    </section>
+
+    <section id="survey">
+        <h2>Survey</h2>
+        
+        <iframe
+        id="JotFormIFrame-241712780449056"
+        title="Optimism Study"
+        onload="window.parent.scrollTo(0,0)"
+        allowtransparency="true"
+        allow="geolocation; microphone; camera; fullscreen"
+        src="https://form.jotform.com/241712780449056"
+        frameborder="0"
+        style="min-width:100%;max-width:100%;height:539px;border:none;"
+        scrolling="no">
+        </iframe>
+    <script src='https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js'></script>
+    <script>window.jotformEmbedHandler("iframe[id='JotFormIFrame-241712780449056']", "https://form.jotform.com/")</script>
+  
+    </section>
+
+    <section id="results">
+        <h2>Live Results</h2>
+        <!-- Embed live charts -->
+        <iframe src="YOUR_LIVE_CHARTS_URL" width="100%" height="400px"></iframe>
+        <p>Initial insights: People are feeling more optimistic...</p>
+    </section>
+
+    <section id="resources">
+        <h2>Resources and Insights</h2>
+        <article>
+            <h3>Related Article</h3>
+            <p>Summary of the article...</p>
+            <a href="#">Read more</a>
+        </article>
+        <!-- Add more articles, infographics, and case studies -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact and Support</h2>
+        <form action="YOUR_FORM_HANDLER_URL" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <h3>FAQs</h3>
+        <div>
+            <button class="accordion">What is the purpose of this survey?</button>
+            <div class="panel">
+                <p>This survey aims to...</p>
+            </div>
+            <!-- Add more FAQs -->
+        </div>
+    </section>
+
+    <footer>
+        <a href="#terms">Terms and Conditions</a>
+        <a href="#privacy">Privacy Policy</a>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
